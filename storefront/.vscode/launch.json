@@ -13,6 +13,7 @@
                 // "--settings=project.settings.dev"
             ],
             "django": true,
+            "justMyCode": false,
             "env": {
                 // "DJANGO_SETTINGS_MODULE": "project.settings.dev",
                 "PYTHONPATH": "${workspaceFolder}/.venv/bin/python",
