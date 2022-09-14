@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver",
+                // "--noreload",
+                "--nothreading"
+                // "--settings=project.settings.dev"
+            ],
+            "django": true,
+            "env": {
+                // "DJANGO_SETTINGS_MODULE": "project.settings.dev",
+                "PYTHONPATH": "${workspaceFolder}/.venv/bin/python",
+            }
+        }
+    ]
+}
