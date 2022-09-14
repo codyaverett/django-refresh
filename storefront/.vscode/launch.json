@@ -8,6 +8,7 @@
             "args": [
                 "runserver",
                 // "--noreload",
+                "9000",
                 "--nothreading"
                 // "--settings=project.settings.dev"
             ],
