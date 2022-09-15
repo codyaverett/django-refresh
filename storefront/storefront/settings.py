@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'store',
     'tags',
     'debug_toolbar',
-    'django-extensions',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
